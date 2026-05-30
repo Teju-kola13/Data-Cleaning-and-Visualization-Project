@@ -1,0 +1,35 @@
+DATA CLEANING AND VISUALIZATION REPORT
+============================================================
+
+Rows: 25
+Columns: 7
+
+Duplicates Removed: 1
+
+Missing Values After Cleaning
+Employee_ID          0
+Age                  0
+Gender               0
+Department           0
+Experience           0
+Salary               0
+Performance_Score    0
+dtype: int64
+
+Statistical Summary
+       Employee_ID        Age  Experience         Salary  Performance_Score
+count    25.000000  25.000000   25.000000      25.000000          25.000000
+mean     13.000000  30.680000    6.360000   55160.000000          83.260000
+std       7.359801   4.888081    4.414748   17307.705413           7.107977
+min       1.000000  24.000000    1.000000   32000.000000          70.000000
+25%       7.000000  27.000000    3.000000   41000.000000          78.000000
+50%      13.000000  30.000000    5.000000   55000.000000          83.500000
+75%      19.000000  33.000000    8.000000   65000.000000          88.000000
+max      25.000000  45.000000   20.000000  100000.000000          97.000000
+
+Outlier Analysis
+Employee_ID: 0 outliers
+Age: 1 outliers
+Experience: 1 outliers
+Salary: 0 outliers
+Performance_Score: 0 outliers
